@@ -1,4 +1,4 @@
-=>=> AI Voice Translator
+# 🌍 AI Voice Translator
 
 An advanced **AI-powered real-time voice & text translation web application** that allows users to speak or type in one language and instantly receive translated output along with natural speech synthesis.
 
@@ -6,7 +6,7 @@ This project delivers a **premium app-like multilingual communication experience
 
 ---
 
--> Key Features
+## 🚀 Key Features
 
 ✨ Real-time voice-to-text translation
 ✨ Automatic live typing translation
@@ -23,7 +23,7 @@ This project delivers a **premium app-like multilingual communication experience
 
 ---
 
-->  Technologies Used
+## 🧠 Technologies Used
 
 * **Node.js**
 * **Express.js**
@@ -36,7 +36,7 @@ This project delivers a **premium app-like multilingual communication experience
 
 ---
 
--> Project Objective
+## 🎯 Project Objective
 
 The goal of this project is to demonstrate how modern browser capabilities and lightweight backend services can be combined to create a **real-time multilingual AI communication interface.**
 
@@ -51,7 +51,7 @@ This project focuses on:
 
 ---
 
--> Installation & Run Locally
+## 🛠️ Installation & Run Locally
 
 ```bash
 git clone https://github.com/prerna-sharma-only/ai-voice-translator.git
@@ -64,10 +64,21 @@ Now open your browser and visit:
 
 http://localhost:5000
 
+---
 
+## 📌 Future Improvements
+
+* Real AI language detection model integration
+* Voice cloning / multiple voice personalities
+* Conversation save & cloud sync
+* Mobile app version (React Native / Flutter)
+* AI grammar correction before translation
+
+---
 
 ## 👨‍💻 Author
 
 **Prerna Sharma**
 Aspiring Full Stack & AI Developer
 Passionate about building real-world intelligent web applications.
+
