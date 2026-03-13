@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Voice Translator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- floating particles -->
+<div class="particle" style="left:10%"></div>
+<div class="particle" style="left:30%"></div>
+<div class="particle" style="left:50%"></div>
+<div class="particle" style="left:70%"></div>
+<div class="particle" style="left:90%"></div>
+
+<div class="app">
+
+<header>
+<h1>AI Voice Translator</h1>
+<p>Seamless AI-powered voice & text translation across global languages</p>
+</header>
+
+<div class="dashboard">
+
+<!-- INPUT CARD -->
+<div class="card inputCard">
+
+<div class="cardHeader">
+<span>Your Voice / Text Command</span>
+<button id="micBtn">🎙️</button>
+<div class="micWave" id="micWave"></div>
+</div>
+
+<textarea id="text" placeholder="Start speaking or type here..."></textarea>
+
+<!-- SOUND BARS (ONLY ONE REQUIRED) -->
+<div class="soundBars" id="bars">
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+</div>
+
+<div id="detectBadge" class="detectBadge">Detecting language...</div>
+
+<div class="controls">
+<select id="lang">
+
+<option value="hi">🇮🇳 Hindi</option>
+<option value="en">🇺🇸 English</option>
+<option value="ja">🇯🇵 Japanese</option>
+<option value="fr">🇫🇷 French</option>
+<option value="es">🇪🇸 Spanish</option>
+<option value="de">🇩🇪 German</option>
+<option value="it">🇮🇹 Italian</option>
+<option value="pt">🇵🇹 Portuguese</option>
+<option value="ru">🇷🇺 Russian</option>
+<option value="zh-CN">🇨🇳 Chinese</option>
+<option value="ko">🇰🇷 Korean</option>
+<option value="nl">🇳🇱 Dutch</option>
+<option value="pl">🇵🇱 Polish</option>
+<option value="sv">🇸🇪 Swedish</option>
+<option value="tr">🇹🇷 Turkish</option>
+<option value="id">🇮🇩 Indonesian</option>
+<option value="vi">🇻🇳 Vietnamese</option>
+<option value="el">🇬🇷 Greek</option>
+<option value="cs">🇨🇿 Czech</option>
+<option value="ro">🇷🇴 Romanian</option>
+<option value="hu">🇭🇺 Hungarian</option>
+<option value="fi">🇫🇮 Finnish</option>
+<option value="da">🇩🇰 Danish</option>
+
+</select>
+
+<button id="swapBtn">⇄</button>
+</div>
+
+</div>
+
+<!-- OUTPUT CARD -->
+<div class="card outputCard">
+
+<div class="cardHeader">
+<span>AI Translation</span>
+</div>
+
+<div id="output" class="outputBox">
+Translation will appear here
+</div>
+
+<button id="translateBtn" class="primaryBtn">
+Translate
+</button>
+
+</div>
+
+</div>
+
+<!-- HISTORY PANEL -->
+<div class="card historyCard">
+<div class="cardHeader">
+<span>Recent Translations</span>
+</div>
+<div id="history" class="historyBox"></div>
+</div>
+
+</div>
+<div class="exportWrap">
+    <div class="exportLabel">⬇ Click to export chat</div>
+    <div class="exportBtn" id="exportBtn">⬇</div>
+</div>
+<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>
