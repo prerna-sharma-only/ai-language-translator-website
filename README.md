@@ -23,7 +23,7 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/43ed6441-5c7d-40d7-9307-6c9cc1e2afed" width="900"/>
+  <img src="https://github.com/user-attachments/assets/4aac7124-024a-4d1f-8ba9-fcbf06c5a9f3" width="900"/>
 </p>
 
 ---
