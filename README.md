@@ -65,6 +65,9 @@ Now open your browser and visit:
 http://localhost:5000
 
 ---
+## 🌐 Live Demo-Render
+
+👉https://ai-quiz-generator-t73s.onrender.com
 
 ## 📌 Future Improvements
 
